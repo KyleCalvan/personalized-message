@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: for-yanny-website
+    runtime: static
+    buildCommand: echo "Static HTML ready"
+    staticPublishPath: .
